@@ -111,17 +111,17 @@ function App() {
       }
 
       return (
-        <div className='col-lg-4' key={item.id}>
+        <div className='col-lg-4 mb-3' key={item.id}>
           <BookCard
             thumbnail={thumbnail}
             title={item.volumeInfo.title}
             pageCount={item.volumeInfo.pageCount}
             language={item.volumeInfo.language}
             authors={item.volumeInfo.authors}
-            publishers={item.volumeInfo.publishers}
+            publisher={item.volumeInfo.publisher}
             description={item.volumeInfo.description}
             previewLink={item.volumeInfo.previewLink}
-            InfoLink={item.volumeInfo.InfoLink}
+            infoLink={item.volumeInfo.infoLink}
           />
         </div>
       );
