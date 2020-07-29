@@ -32,9 +32,7 @@ const BookCard = ({
       </CardBody>
       <Modal isOpen={modal} toggle={toggle}>
         <div className='modal-header d-flex justify-content-center'>
-          <h5 className className='modal-title text-center'>
-            {title}
-          </h5>
+          <h5 className='modal-title text-center'>{title}</h5>
           <button
             aria-label='close'
             className='close'
